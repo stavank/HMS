@@ -1,0 +1,31 @@
+1.download and install python 2.7 (preferably)
+2.download and install postgres (DB)
+3.download and install pgadmin (UI for postgres)
+4.download and install pip (installer for packages)
+ . Go to link : https://pip.pypa.io/en/latest/installing.html
+   . download the secure get-pip.py and save it in your python directory
+   . in command prompt go to your python directory and execute : "python get-pip.py"
+ . Set environment variables, control panel -> system -> advanced settings -> system variables -> Path
+   . append C:\"your_python_directory"
+   . append C:\"your_python_directory"\Scripts
+5.download and install Flask-SQLAlchemy
+ . After step 4, open command prompt
+ . command : "pip install Flask-SQLAlchemy"
+6.download and install flask-security
+ . After step 5, open command prompt
+ . command : "pip install flask-security"
+7.download and setup virtualenv
+ . After step 6, open command prompt
+ . command : "pip install virtualenv"
+8.download and install psycopg2
+ . After step 7, open command prompt
+ (NOTE : use the 32 bit version if your python is 32 bit and 64 bit if your python is 64 bit)
+ (Download the required exe file from http://www.stickpeople.com/projects/python/win-psycopg/)
+ . command : "pip install path_of_exe_file_downloaded_from_source"
+ (Also if above instruction doesnt work and whn you run main.py, it gives import errors, install easy_install and then follow instructions on http://www.stickpeople.com/projects/python/win-psycopg/)
+9.download and install bcrypt for password encryption
+ . After step 8 open command prompt
+ . command : "pip install flask-bcrypt"
+10.download and install jinja2
+ . After step 9 open command prompt
+ . command : "pip install jinja2"

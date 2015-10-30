@@ -1,0 +1,214 @@
+body{
+    background: url('../images/bg.png') repeat;
+    height: 100% !important;
+    width: 100% !important;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.form-holder{
+    background-color: #1E1D23;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.white-header{
+    color: #fff;
+}
+.btn{
+    background-color: #fff;
+    color: #303030;
+}
+.login-container{
+    width: 95vw;
+    height: 100vh;
+}
+.login-form{
+    margin-top: 22vh;
+}
+.error{
+    color: #fff !important;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.form-control{
+    font-size: 18px;
+    color: #232229;
+}
+.linear-grad{
+    width: 100vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    border: none;
+    background: -webkit-linear-gradient(#32313B, #1E1D23); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#32313B, #1E1D23); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#32313B, #1E1D23); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#32313B, #1E1D23); /* Standard syntax */
+}
+.no-border{
+    border: none;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #1E1D23;
+    background-color: #e7e7e7;
+}
+.bold{
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: #e7e7e7;
+}
+.padd-acc{
+    padding-right: 5vw;
+    padding-left: 6vw;
+}
+.top-margin-fixed-80{
+    margin-top: 80px;
+}
+.page-title{
+    font-size: 24px!important;
+    color: #fff!important;
+}
+hr{
+    border-top: 1px solid #fff;
+}
+.btn-blue{
+    background-color: #39B1C6;
+}
+.white{
+    color: #fff;
+}
+.white:hover{
+    color: #fff;
+}
+.white:focus{
+    color: #fff;
+}
+.usersemail{
+    background: none;
+    border: none;
+    padding-left: 0px;
+}
+.top-margin-fixed-11{
+    margin-top: 11px;
+}
+.top-margin-fixed-16{
+    margin-top: 16px;
+}
+.checkbox-lg{
+    width: 22px;
+    height: 22px;
+}
+.checkbox-md{
+    width: 16px;
+    height: 16px;
+}
+.role-name, .permission-name{
+    vertical-align: super;
+    font-size: 18px;
+}
+.username-span{
+    vertical-align: sub;
+    font-size: 18px;
+}
+.top-margin-2{
+    margin-top: 2%;
+}
+.top-margin-4{
+    margin-top: 4%;
+}
+.top-margin-6{
+    margin-top: 6%;
+}
+.bottom-margin-2{
+    margin-bottom: 2%;
+}
+.bottom-margin-4{
+    margin-bottom: 4%;
+}
+.active {
+    display: block !important;
+}
+.test-info{
+    vertical-align: super;
+}
+.test-labels, .patient-labels{
+    font-size: 16px;
+}
+.test-region, .patient-region{
+    margin-top: 3%;
+}
+.top-margin-1{
+    margin-top: 1%;
+}
+.top-margin-3{
+    margin-top: 3%;
+}
+.std-bg{
+    background-color: #1E1D23;
+    border-radius: 20px 0px 20px 0px;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.dropdown-menu{
+    min-width: 100%;
+}
+.test-region > form > .row {
+    display: none;
+}
+.patient-region > form > .row {
+    display: none;
+}
+.btn-dark-blue{
+    background-color: #46464F;
+}
+.btn-red {
+    background-color: #D32127;
+}
+.sort-labels {
+    font-size: 18px;
+    vertical-align: -webkit-baseline-middle;
+}
+.right-padding-fixed-10{
+    padding-right: 10px;
+}
+.readonly{
+    background-color: #E6E680!important;
+}
+.inactive{
+    display: none;
+}
+.clear-4{
+    margin-bottom: 4%;
+}
+.usersinfo:last-child > .clear-4{
+    display: none;
+}
+.usersinfo{
+    margin-top: 2%;
+}
+.clear-5{
+    margin-bottom: 5%;
+}
+.left-margin-5{
+    margin-left: 5%;
+}
+.align-middle{
+    vertical-align: -webkit-baseline-middle;
+}
+.correct, .incorrect, .alert-danger{
+    display: none;
+}
+.alert{
+    z-index:100000000;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HMS Login</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script></head>
+    <script src="../static/js/main.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <form class="form-horizontal login-form" role="form" action="{{ url_for('signin') }}" method="POST">
+            <div class="row no-gutters">
+                <div class="col-xxs-offset-1 col-xs-offset-1 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xxs-10 col-xs-10 col-md-6 col-sm-6 col-lg-6 form-holder">
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-md-offset-3 col-xs-offset-2 col-sm-6 col-md-6 col-xs-7">
+                            <h2 class="white-header">
+                                Login
+                            </h2>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-md-offset-3 col-xs-offset-2 col-sm-6 col-md-6 col-xs-7">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-md-offset-3 col-xs-offset-2 col-sm-6 col-md-6 col-xs-7">
+                            <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Enter password">
+                        </div>
+                    </div>
+                    {% if error %}
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-md-offset-3 col-xs-offset-2 col-sm-6 col-md-6 col-xs-7">
+                            <span class="error">{{ error }}</span>
+                        </div>
+                    </div>
+                    {% endif %}
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-md-offset-3 col-xs-offset-2 col-sm-6 col-md-6 col-xs-7">
+                            <button class="btn btn-md" type="submit">
+                                <span class="glyphicon glyphicon-check"></span> <strong>Sign in</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
