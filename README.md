@@ -8,6 +8,8 @@ The purpose of the project was to get hands on experience with the before mentio
 
 This system currently provides interfaces to 
 <ul>
+<li>login for valid users</li>
+<li>change passwords</li>
 <li>add new users to the system.</li>
 <li>grant / revoke roles to users</li>
 <li>give various permissions (read / write) to roles</li>
