@@ -15,6 +15,7 @@ This system currently provides interfaces to
 <li>add / remove tests</li>
 <li>search patients data</li>
 <li>search tests data</li>
+<li>logger to log all activities like successful / failed logins, additons / deletions to the system, etc.</li>
 </ul>
 
 I am working on setting up new interfaces to 
